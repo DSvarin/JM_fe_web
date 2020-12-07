@@ -131,10 +131,9 @@ a {
 }
 
 .footer__lang-item {
-    text-transform: uppercase;
     display: inline-block;
 }
 
-.footer__lang-link--active {
+.footer__lang-button--active {
     color: #7E7E82;
 }
