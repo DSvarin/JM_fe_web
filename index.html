@@ -3,60 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CPS - сервисный центр Dell</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__menu-button">
-            <button><img src="./images/burgermenu.svg" alt="Меню" class="header__button-img"></button>
-        </div>
-        <div class="header__logo">
-            <img src="./images/logo.svg" alt="Логотип компании 'CPS'">
-        </div>
-        <div class="header__contact-button">
-            <button><img src="./images/call.svg" alt="Заказать обратный звонок"></button>
-            <button><img src="./images/chat.svg" alt="Написать в чат"></button>
-            <button><img src="./images/profile.svg" alt="Ваша учетная запись" ></button>
-        </div>
-        <div class="header__button">
-            <button><img src="./images/repair.svg" alt="Оставить заявку"></button>
-            <button><img src="./images/checkstatus.svg" alt="Проверить статус ремонта"></button>
-        </div>
-    </header>
-    <main class="main">
-        <div class="main__header">
-            <h1>Услуги и сервисы</h1>
-            <div class="main__header-button">
-                <button class="button-img-text">Оставить заявку<img src="./images/repair.svg" alt="Оставить заявку" class="main__button-img"></button>
-                <button class="button-img-text">Статус ремонта<img src="./images/checkstatus.svg" alt="Проверить статус ремонта" class="main__button-img"></button>
-            </div>
-        </div>
-        <nav class="navigation">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="" class="navigation__link navigation__link--active">Ремонтируемые бренды</a></li>
-                <li class="navigation__item"><a href="" class="navigation__link">Ремонтируемые устройства</a></li>
-                <li class="navigation__item"><a href="" class="navigation__link">Цены на услуги</a></li>
-                <li class="navigation__item"><a href="" class="navigation__link">Адреса сервисных центров</a></li>
-                <li class="navigation__item"><a href="" class="navigation__link">Специальные цены</a></li>
-                <li class="navigation__item"><a href="" class="navigation__link">Отзывы</a></li>
-            </ul>
+    <div class="aside-menu">
+        <div class="top-container">
+            <heder class="header">
+                <div class="header__logo">
+                    <button><img src="./images/burgerX.svg" alt="Закрыть меню" ></button>
+                    <img src="./images/logo.svg" alt="Логотип компании 'CPS'">
+                </div>
+                <div class="header__search-button">
+                    <button><img src="./images/search.svg" alt="Поиск"></button>
+                </div>
+            </heder>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="" class="navigation__link--active">Ремонт техники</a></li>
+                    <li class="navigation__item"><a href="">Услуги и сервисы</a></li>
+                    <li class="navigation__item"><a href="">Корпоративным клиентам</a></li>
+                    <li class="navigation__item"><a href="">Продавцам техники</a></li>
+                    <li class="navigation__item"><a href="">Партнерам</a></li>
+                    <li class="navigation__item"><a href="">Производителям</a></li>
+                    <li class="navigation__item"><a href="">Наши сервисные центры</a></li>
+                    <li class="navigation__item"><a href="">Контакты</a></li>
+                </ul>
         </nav>
-        <section class="information">
-            <div class="information__container">
-                <div class="information__text">
-                    <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell.
-                        Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-                    <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
-                        что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
-                        в свою очередь, советуют нас родным и близким.</p>
-                </div>
-                <div class="information__button">
-                    <button class="button-img-text">Читать далее</button>
-                </div>
+    </div>
+        <footer class="footer">
+            <div class="footer__contact-button">
+                <button><img src="./images/call.svg" alt="Заказать обратный звонок"></button>
+                <button><img src="./images/chat.svg" alt="Написать в чат"></button>
+                <button><img src="./images/profile.svg" alt="Ваша учетная запись" ></button>
             </div>
-            <img src="./images/nameplate.jpg" alt="Табличка с логотипом компании" class="information__img">
-        </section>
-    </main>
+            <div class="footer__mail">mail@cps.com</div>
+            <div class="footer__telephone">8 800 890 8900</div>
+            <ul class="footer__lang-list">
+                <li class="footer__lang-item"><a href="" class="footer__lang-link--active">ru</a></li>
+                <li class="footer__lang-item"><a href="" >en</a></li>
+                <li class="footer__lang-item"><a href="" >ch</a></li>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>
