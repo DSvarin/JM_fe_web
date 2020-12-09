@@ -40,6 +40,7 @@ body {
 }
 
 button {
+    font-family: inherit;
     border: none;
     background-color: inherit;
     padding: 5px 0 0 0;
@@ -96,16 +97,16 @@ a {
     padding-top: 50px;
 }
 
-.navigation__item {
+.navigation__link {
     margin-bottom: 32px;
 }
 
-.navigation__link--active {
+.navigation__link_active {
     color: #7E7E82;
     position: relative;
 }
 
-.navigation__link--active::before {
+.navigation__link_active::before {
     content: url('../images/highlightmini.png');
     position: absolute;
     left: -24px;
@@ -121,6 +122,7 @@ a {
 
 .footer__mail {
     margin-bottom: 12px;
+    display: block;
 }
 
 .footer__telephone {
@@ -128,12 +130,13 @@ a {
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 35px;
+    display: block;
 }
 
-.footer__lang-item {
+.footer__lang-button {
     display: inline-block;
 }
 
-.footer__lang-button--active {
+.footer__lang-button_active {
     color: #7E7E82;
 }
