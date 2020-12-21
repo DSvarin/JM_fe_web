@@ -31,6 +31,7 @@ mobileSlider();
 
 window.addEventListener('resize', function() {
     mobileSlider();
+    showMoreLess();
 });
 
 let slides = document.querySelectorAll('.swiper-slide');
