@@ -37,7 +37,6 @@ window.addEventListener('resize', function() {
 let slides = document.querySelectorAll('.swiper-slide');
 
 function showLess() {
-
     if (window.innerWidth >= 768 && window.innerWidth < 1016) {
         for ( i = 6; i < slides.length; i++) {
             slides[i].style.display = 'none';
