@@ -7,7 +7,8 @@ function mobileSlider() {
         mySwiper = new Swiper('.swiper-container', {
             slidesPerView: 'auto',
             spaceBetween: 16,
-            loop: true,
+            slidesOffsetBefore: 16,
+            slidesOffsetAfter: 26,
             pagination: {
                 el: '.swiper-pagination',
 

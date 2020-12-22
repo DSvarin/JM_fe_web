@@ -71,7 +71,7 @@ h1 {
 }
 
 .swiper-wrapper {
-    padding: 16px;
+    padding: 16px 0;
 }
 
 @media (min-width: 768px) {
@@ -117,6 +117,7 @@ h1 {
     width: 240px;
     flex-grow: 1;
 }
+
 
 .fix {
     display: none;
